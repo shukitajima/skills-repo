@@ -32,3 +32,4 @@ skills-repo/
 - `.github/workflows/sync-upstream.yml` により、GitHub Actions が毎週月曜（`0 3 * * 1` UTC）および手動実行（`workflow_dispatch`）で上流の `skills/yomiyasu` に自動追従します。
 - モデル自動選択時のカタログでは説明文が切り詰められるが、`$` による手動呼び出しには影響しない。
 - **任意機能の前提（`skills/yomiyasu/scripts/`）**: 同梱の検査スクリプト群（`yomiyasu_lint.py` / `yomiyasu_check.py` / `yomiyasu_diff.py` 等）を実行する場合は `python3` が必要です（Python 3 標準ライブラリのみで動作し、`pyyaml` 等の外部パッケージ依存はありません）。
+- 同梱している外部スキルの出典・ライセンス一覧は [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) を参照してください。
